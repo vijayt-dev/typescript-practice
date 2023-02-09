@@ -1,0 +1,31 @@
+"use strict";
+var weekDays;
+(function (weekDays) {
+    weekDays[weekDays["MON"] = 0] = "MON";
+    weekDays[weekDays["TUE"] = 1] = "TUE";
+    weekDays[weekDays["WED"] = 2] = "WED";
+    weekDays[weekDays["THUR"] = 3] = "THUR";
+    weekDays[weekDays["FRI"] = 4] = "FRI";
+    weekDays[weekDays["SAT"] = 5] = "SAT";
+    weekDays[weekDays["SUN"] = 6] = "SUN";
+})(weekDays || (weekDays = {}));
+console.log(weekDays[0]);
+var Month;
+(function (Month) {
+    Month[Month["Jan"] = 1] = "Jan";
+    Month[Month["Feb"] = 2] = "Feb";
+    Month[Month["Mar"] = 3] = "Mar";
+    Month[Month["Apr"] = 4] = "Apr";
+    Month[Month["May"] = 5] = "May";
+    Month[Month["Jun"] = 6] = "Jun";
+    Month[Month["Jul"] = 7] = "Jul";
+    Month[Month["Aug"] = 8] = "Aug";
+    Month[Month["Sep"] = 9] = "Sep";
+    Month[Month["Oct"] = 10] = "Oct";
+    Month[Month["Nov"] = 11] = "Nov";
+    Month[Month["Dec"] = 12] = "Dec";
+})(Month || (Month = {}));
+;
+console.log(Month.Mar);
+let useless;
+console.log(useless);
